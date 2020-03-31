@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{8E40C21C-B564-6776-5E18-C78C4520AC61}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ToDo.txt">
+    <Files>
+      <File FileName="Assets/script/PlayerMovement.cs" Line="241" Column="26" />
+      <File FileName="Assets/agent.cs" Line="27" Column="22" />
+      <File FileName="Assets/ToDo.txt" Line="5" Column="116" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Xamlress" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="script" expanded="True" />
+              <Node name="ToDo.txt" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d6732e6c-1645-412a-9408-c8b5950e870f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
