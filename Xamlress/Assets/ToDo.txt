@@ -1,5 +1,0 @@
-Het level wordt een town die behoren is in de tijd. Jij moet puzzels oplossen om de tijd amcghine te stoppen die de tijd laat stilstaan.
-
-de tijd machine draait met animatie
-je moet aan alle kanten van de tijd machine (3 a 4) een code invoeren.
-er komt langzaam een buis naar beneden. als de buis gesloten is kan je geen codes meer invoeren en ben je game over
