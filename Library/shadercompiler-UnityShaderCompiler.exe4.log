@@ -1,2 +1,37 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.16f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.16f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=1372 outsize=666 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at Sort.compute(218): use of potentially uninitialized variable (GetKeyWithCheck)
+  api=14 insize=10127 outsize=5023 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10127 outsize=3652 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4925 outsize=2003 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1615 outsize=1006 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=5045 outsize=2747 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2747 outsize=5066 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3231 outsize=4844 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11078 outsize=2470 kw=UNITY_PASS_FORWARDBASE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=12092 outsize=650 kw=UNITY_PASS_FORWARDBASE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5638 outsize=2486 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=12094 outsize=2814 kw=UNITY_PASS_FORWARDBASE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileComputeKernel
+  api=14 insize=4961 outsize=3297 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=5470 outsize=3003 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5937 outsize=2306 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1688 outsize=1398 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=12621 outsize=3634 kw=UNITY_PASS_FORWARDBASE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
