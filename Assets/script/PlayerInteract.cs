@@ -8,7 +8,9 @@ public class PlayerInteract : MonoBehaviour
     public Vector3 player;
     public float pakAfstand = 2f;
     public BackpackPickup BackpackPickUp;
+    public KeyPickup KeyPickup;
     public GameObject Backpack;
+    public GameObject RedKey;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,7 @@ public class PlayerInteract : MonoBehaviour
         {
             Vector3 forward = transform.TransformDirection(Vector3.forward) * pakAfstand;
             Debug.DrawRay(transform.position, forward, Color.green);
-            if (hit.collider.tag == "Item")
+            if (hit.collider.tag == "BackPack")
             {
                 Debug.Log("ray");
                 BackpackPickUp.glowStart();
@@ -37,6 +39,25 @@ public class PlayerInteract : MonoBehaviour
                     Debug.Log("Backpack opgepakt");
                 }
             }
+            else if (hit.collider.tag == "RedKey")
+            {
+                Debug.Log("ray");
+                KeyPickup.glowStart();
+                if (Input.GetKey(KeyCode.E))
+                {
+                    string info = PlayerPrefs.GetString("items");
+                    Debug.Log(info);
+                    if (info == "Backpack")
+                    {
+                       KeyPickup.pickupKey();
+                       Destroy(RedKey);
+                       Debug.Log("Red key opgepakt");
+                    }
+                }
+            }
         }
     }
+
+    //todo 
+    //zorgen dat ik voor het oppakken een functie maak met een paar variabelen
 }
